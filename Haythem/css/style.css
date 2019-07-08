@@ -1,0 +1,278 @@
+
+body {
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, black, black 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%); 
+    height: 2000px;
+    font-family: 'Courier New', Courier, monospace;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+a{
+  font-family: 'Courier New', Courier, monospace;
+}
+p {
+    display:inline;
+}
+
+ /* navigation bar */
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ 
+  li a:hover {
+    background-color: rgb(131, 48, 48);
+  } */
+
+/*boutton */
+  .containe {
+      text-align: center;
+      margin-top: 90px;
+  }
+
+  .subm {
+      border: 1px solid #3498db;
+      background: #3498db;
+      padding: 10px 20px;
+      font-size: 20px;
+      font-family: "montserrat";
+      cursor: pointer;
+      margin: 10px;
+      transition: 0.8s;
+
+  }
+
+  .submi {
+    color: #fff;    
+  }
+  .submi:hover {
+    color: #3498db;
+  }
+
+  .img1, .img2 {
+    width: 100%;
+  }
+
+  .logo {
+    float: right;
+    width: 2px;
+    height: 2px;
+    z-index: auto;
+  }
+
+
+  .course {
+    background-image: url("https://www.ateamindia.com/wp-content/uploads/2019/04/web-dev.jpg");
+    height: 15cm;
+    font-size: 40px;
+    color: #fff;
+    margin-top: -2.5cm;
+    
+  }
+
+  .ligneone {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+
+  .lignetwo {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+
+  .lignethree {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+
+  .course1 {
+    margin: 1cm;
+    height: 7cm;
+    width: 7cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("btn1.PNG");
+    background-size: cover;
+  }
+
+  .course2 {
+    margin: 1cm;
+    height: 7cm;
+    width: 7cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("btn2.PNG");
+    background-size: cover;
+  }
+
+  /* .course2:hover{
+    background-color:black;
+    opacity: 0.5;
+    
+}
+.btnCourses2{
+ display: none;
+  
+}
+.:hover{
+  background-color:black;
+  opacity: 0.5;
+  
+} */
+ 
+
+  .course3 {
+    margin: 1cm;
+    height: 7cm;
+    width: 7cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("btn3.PNG");
+    background-size: cover;
+  }
+
+  .course4 {
+    margin: 1cm;
+    height: 7cm;
+    width: 7cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("btn4.PNG");
+    background-size: cover;
+  }
+
+  .course5 {
+    margin: 1cm;
+    height: 7cm;
+    width: 7cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("btn5.PNG");
+    background-size: cover;
+  }
+
+  .course6 {
+    margin: 1cm;
+    height: 7cm;
+    width: 7cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("btn6.PNG");
+    background-size: cover;
+  }
+
+  .course7 {
+    margin: 1cm;
+    height: 7cm;
+    width: 7cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("btn7.PNG");
+    background-size: cover;
+  }
+
+
+  .course8 {
+    margin: 1cm;
+    height: 7cm;
+    width: 7cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("btn8.PNG");
+    background-size: cover;
+  }
+
+  .course9 {
+    margin: 1cm;
+    height: 7cm;
+    width: 7cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("btn9.PNG");
+    background-size: cover;
+  }
+
+  .cont {
+    position: relative;
+    width: 7cm;
+    height: 7cm;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 7cm;
+    height: 7cm;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .cont:hover .image {
+    opacity: 0.3;
+  }
+  
+  .cont:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: rgb(52, 67, 201);
+    color: white;
+    font-size: 13px;
+    padding: 16px 32px;
+  }
+
+  .fant{
+    text-decoration: none;
+    color: white;
+  }
+
+  #myText {
+    width: 50%;
+    
+  }
